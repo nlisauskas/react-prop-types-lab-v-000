@@ -10,7 +10,11 @@ class Product extends React.component {
       <ul>
         <li>{this.props.name}</li>
         <li>{this.props.producer}</li>
+<<<<<<< HEAD
         <li>{this.props.hasWatermark ? 'Watermarked' : 'Not watermaked'}</li>
+=======
+        <li>{this.props.hasWatermark}</li>
+>>>>>>> dfa47455ada9f8bad0e4c9d2e67dabf0cc322c50
         <li>{this.props.color}</li>
         <li>{this.props.weight}</li>
       </ul>
@@ -18,6 +22,7 @@ class Product extends React.component {
     )
   }
 }
+<<<<<<< HEAD
 
 Product.defaultProps = {
   hasWatermark: false
@@ -41,3 +46,5 @@ Product.propTypes = {
     }
   }
 };
+=======
+>>>>>>> dfa47455ada9f8bad0e4c9d2e67dabf0cc322c50
